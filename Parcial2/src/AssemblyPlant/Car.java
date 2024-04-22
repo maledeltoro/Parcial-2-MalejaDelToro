@@ -13,8 +13,17 @@ import java.util.ArrayList;
  */
 public class Car {
     
-    private ArrayList<Provider> provider;
-    private ArrayList<Wheel> wheel;
-    private ArrayList<Engine> engine;
-    
+    private Provider provider;
+    private Wheel wheel;
+    private Engine engine;
+
+    public String getProvider() {
+        if (this.provider instanceof Hyundai) 
+            return "Hyundai";
+        else if(this.provider instanceof Renault)
+            return "Renault";
+        else
+            return "None";
+        
+    }    
 }
