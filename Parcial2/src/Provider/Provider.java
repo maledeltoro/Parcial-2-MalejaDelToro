@@ -8,6 +8,8 @@ package Provider;
  *
  * @author HP
  */
-public class Provider {
-    
+public interface Provider {
+    public Wheel makeWheel ();
+
+    public Engine makeEngine (); 
 }
