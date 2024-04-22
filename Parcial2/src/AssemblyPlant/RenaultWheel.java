@@ -10,6 +10,6 @@ package AssemblyPlant;
  *
  * @author HP
  */
-public class RenaultWheel extends Wheel{
+public class RenaultWheel implements Wheel{
     
 }
