@@ -9,5 +9,8 @@ package AssemblyPlant;
  * @author HP
  */
 public class RenaultEngine implements Engine{
-    
+    public RenaultEngine (float weight, float cost) {
+        this.cost = cost;
+        this.weight = weight;
+    }
 }
