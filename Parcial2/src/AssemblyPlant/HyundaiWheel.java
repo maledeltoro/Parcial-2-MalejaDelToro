@@ -8,6 +8,6 @@ package AssemblyPlant;
  *
  * @author HP
  */
-public class HyundaiWheel extends Wheel{
+public class HyundaiWheel implements Wheel{
     
 }
