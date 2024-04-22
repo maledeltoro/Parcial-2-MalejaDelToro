@@ -10,4 +10,9 @@ package AssemblyPlant;
  */
 public class Wheel {
     
+    protected float radius;
+    protected String material;
+    
+    
+    
 }

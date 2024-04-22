@@ -4,10 +4,15 @@
  */
 package AssemblyPlant;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author HP
  */
 public class AssemblyPlant {
+    
+    private int maxCars;
+    private ArrayList<Car> cars;
     
 }

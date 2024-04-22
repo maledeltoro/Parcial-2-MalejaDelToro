@@ -10,4 +10,7 @@ package AssemblyPlant;
  */
 public class Engine {
     
+    protected float weight;
+    protected float cost;
+    
 }
