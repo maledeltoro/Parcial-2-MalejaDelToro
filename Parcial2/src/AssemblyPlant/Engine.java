@@ -8,7 +8,7 @@ package AssemblyPlant;
  *
  * @author HP
  */
-public class Engine {
+public interface Engine {
     
     protected float weight;
     protected float cost;
