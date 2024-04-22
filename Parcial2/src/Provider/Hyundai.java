@@ -8,6 +8,13 @@ package Provider;
  *
  * @author HP
  */
-public class Hyundai extends Provider {
+public class Hyundai implements Provider {
     
+    public Engine makeEngine (float weight, float cost) {
+        return HyundaiEngine(weight, cost);
+    }
+
+    public Wheel makeWheel (float radius, String material) {
+        return HyundaiWheel(radius, material);
+    }
 }
