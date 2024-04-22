@@ -31,12 +31,13 @@ public class AssemblyPlant {
         }
 
         System.out.println("Providers Summary:");
-
+        System.out.println("");
         System.out.println("- Cars using Renault = " + renault_count);
         System.out.println("- Cars using Hyundai = " + hyundai_count);
+        System.out.println("");
 
         for (int i = 0; i < cars.size(); i++)
-            System.out.println("- Car 1 uses " + cars.get(i).getProvider() + " Provider");
+            System.out.println("- Car " + i + " uses " + cars.get(i).getProvider() + " Provider");
     }
 
 }
