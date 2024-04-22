@@ -8,7 +8,7 @@ package AssemblyPlant;
  *
  * @author HP
  */
-public class Wheel {
+public interface Wheel {
     
     protected float radius;
     protected String material;
