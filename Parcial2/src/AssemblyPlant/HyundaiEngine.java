@@ -8,6 +8,6 @@ package AssemblyPlant;
  *
  * @author HP
  */
-public class HyundaiEngine extends Engine{
+public class HyundaiEngine implements Engine{
     
 }
