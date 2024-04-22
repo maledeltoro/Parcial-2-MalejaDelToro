@@ -8,6 +8,6 @@ package AssemblyPlant;
  *
  * @author HP
  */
-public class RenaultEngine extends Engine{
+public class RenaultEngine implements Engine{
     
 }
