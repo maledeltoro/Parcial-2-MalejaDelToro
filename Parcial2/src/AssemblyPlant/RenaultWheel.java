@@ -11,5 +11,8 @@ package AssemblyPlant;
  * @author HP
  */
 public class RenaultWheel implements Wheel{
-    
+    public RenaultWheel (float radius, String material) {
+        this.radius = radius;
+        this.material = material;
+    }
 }
