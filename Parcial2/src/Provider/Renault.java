@@ -8,6 +8,13 @@ package Provider;
  *
  * @author HP
  */
-public class Renault extends Provider{
-    
+public class Renault implements Provider{
+    public Engine makeEngine (float weight, float cost) {
+        return RenaultEngine(weight, cost);
+    }
+
+    public Wheel makeWheel (float radius, String material) {
+        return RenaultWheel(radius, material);
+    }
 }
+
