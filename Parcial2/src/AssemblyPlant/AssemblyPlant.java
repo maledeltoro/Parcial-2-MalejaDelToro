@@ -6,13 +6,37 @@ package AssemblyPlant;
 
 import java.util.ArrayList;
 
+import Provider.Hyundai;
+import Provider.Renault;
+
 /**
  *
  * @author HP
  */
 public class AssemblyPlant {
-    
+
     private int maxCars;
     private ArrayList<Car> cars;
-    
+
+    public void providerSummary() {
+        int renault_count = 0;
+        int hyundai_count = 0;
+
+        for (int i = 0; i < cars.size(); i++) {
+            if (cars.get(i).getProvider().equals("Hyundai")) {
+                hyundai_count++;
+            } else if (cars.get(i).getProvider().equals("Renault")) {
+                renault_count++;
+            }
+        }
+
+        System.out.println("Providers Summary:");
+
+        System.out.println("- Cars using Renault = " + renault_count);
+        System.out.println("- Cars using Hyundai = " + hyundai_count);
+
+        for (int i = 0; i < cars.size(); i++)
+            System.out.println("- Car 1 uses " + cars.get(i).getProvider() + " Provider");
+    }
+
 }
